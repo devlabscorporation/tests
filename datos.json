@@ -15,7 +15,47 @@
       {
         "nombre": "Isabela Salinas",
         "telefono": "88718980"
-      }
+      },
+        {
+  "nombre": "Santiago López",
+  "telefono": 32395226
+ },
+ {
+  "nombre": "Valentina Rodríguez",
+  "telefono": 32395227
+ },
+ {
+  "nombre": "Martín Martínez",
+  "telefono": 32395228
+ },
+ {
+  "nombre": "Gabriela García",
+  "telefono": 32395229
+ },
+ {
+  "nombre": "Alejandro Fernández",
+  "telefono": 32395230
+ },
+ {
+  "nombre": "Sofia Díaz",
+  "telefono": 32395231
+ },
+ {
+  "nombre": "Lucas González",
+  "telefono": 32395232
+ },
+ {
+  "nombre": "Isabella Torres",
+  "telefono": 32395233
+ },
+ {
+  "nombre": "Juan Ramírez",
+  "telefono": 32395234
+ },
+ {
+  "nombre": "Camila Herrera",
+  "telefono": 32395235
+ }
     ]
   }
   
