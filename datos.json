@@ -1,0 +1,21 @@
+{
+    "contactos": [
+      {
+        "nombre": "Alejandro Salinas",
+        "telefono": "32395226"
+      },
+      {
+        "nombre": "Ana Salinas",
+        "telefono": "32577785"
+      },
+      {
+        "nombre": "Karla Salinas",
+        "telefono": "97608073"
+      },
+      {
+        "nombre": "Isabela Salinas",
+        "telefono": "88718980"
+      }
+    ]
+  }
+  
