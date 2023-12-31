@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrar Teléfono</title>
+</head>
+<body>
+    <button onclick="vibrarTelefono()">¡Vibrar Teléfono!</button>
+
+    <script>
+        function vibrarTelefono() {
+            // Verificamos si el navegador es Safari (que generalmente se usa en iPhones)
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)) {
+                // Intentamos activar la vibración en respuesta a una acción del usuario
+                document.body.addEventListener('click', function () {
+                    window.navigator.vibrate(1000);
+                });
+            } else if ("vibrate" in navigator) {
+                // Si no estamos en un dispositivo iOS, intentamos la vibración directamente
+                navigator.vibrate(1000);
+            } else {
+                // Mensaje de fallback si la vibración no es compatible
+                alert("Lo siento, tu dispositivo no admite la vibración.");
+            }
+        }
+    </script>
+</body>
+</html>
